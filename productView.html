@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Informator site</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="css/search.css" rel="stylesheet" type="text/css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <!--#include virtual="ssi/mainMenu.html" -->
+
+        <!-- Page Content -->
+        <div class="container">
+            <!--#include virtual="ssi/search.html"-->
+            
+            <div class="row">
+                <h1>Андонов Ауто 2014 ЕООД</h1>
+                <div class="col-lg-6">
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                                <td colspan="2">
+                                    Андонов Ауто 2014 ЕООД е първоприемник на дейността на сервиз Ауто Унион Пловдив. Фирмата извършва:
+                                    ♦ Компютърна диагностика
+                                    ♦ Ремонт на двигатели
+                                    ♦ Смяна на съединители
+                                    ♦ Ремонт на скоростни кутии
+                                    ♦ Обслужване на климатични системи
+                                    ♦ Обслужване на електро системи
+                                    ♦ Ремонт на ходова част - стенд преден/заден мост
+                                    ♦ Диагностика на турбо копмресори
+                                    ♦ Смяна на масло
+                                    ♦ Смяна на филтри
+                                    ♦ Смяна на ремъци
+                                    ♦ Смяна на ролки
+                                    ♦ Смяна на водни помпи
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Адрес</td>
+                                <td>
+                                    <p>гр. Пловдив, бул. Цариградско шосе №92</p>
+                                    <p><a onclick="navigate(31.046051,34.85161199999993)">Заведи ме</a></p>
+                                    <p><a href="tel:0883123321">Обади се</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Телефони</td>
+                                <td>
+                                    032 - 80 89 86 (0884 75 03 06)
+                                    0888 32 60 74 - Стоян Андонов
+                                    0889 50 65 00 - Николай Трайков
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>E-mail</td>
+                                <td><a href="mailto:andonovauto@abv.bg">andonovauto@abv.bg</a></td>
+                            </tr>
+                            <tr>
+                                <td>Уеб сайт</td>
+                                <td><a href="http://infomediabg.com">http://infomediabg.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Лице за контакти</td>
+                                <td>Стоян Андонов</td>
+                            </tr>
+                            <tr>
+                                <td>Разгледано</td>
+                                <td>7634 пъти</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/product_view_1.jpg">
+                </div>
+
+                <a href="categoryListing.html">
+                    <span class="glyphicon glyphicon-arrow-left"></span> Назад към категория Автосервизи
+                </a>
+            </div>
+            <!-- /.row -->
+
+            <hr>
+
+            <!--#include virtual="ssi/footer.html"-->
+            <script type="text/javascript">
+                function navigate(lat, lng) {
+                    // If it's an iPhone..
+                    if ((navigator.platform.indexOf("iPhone") !== -1) || (navigator.platform.indexOf("iPod") !== -1)) {
+                        function iOSversion() {
+                            if (/iP(hone|od|ad)/.test(navigator.platform)) {
+                            // supports iOS 2.0 and later: <http://bit.ly/TJjs1V>
+                            var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+                            return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
+                        }
+                    }
+                    
+                    var ver = iOSversion() || [0];
+
+                    if (ver[0] >= 6) {
+                        protocol = 'maps://';
+                    } else {
+                        protocol = 'http://';
+                    }
+
+                    window.location = protocol + 'maps.apple.com/maps?daddr=' + lat + ',' + lng + '&amp;ll=';
+                    } else {
+                    window.open('http://maps.google.com?daddr=' + lat + ',' + lng + '&amp;ll=');
+                    }
+                }
+            </script>
+        </div>
+        <!-- /.container -->
+    </body>
+</html>
