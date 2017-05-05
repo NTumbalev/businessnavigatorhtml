@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"><link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
@@ -28,11 +28,13 @@
     </head>
 
     <body>
-        <!--#include virtual="ssi/mainMenu.html" -->
+        <header>
+            <?php include 'ssi/mainMenu.php'; ?>
+        </header><!-- /header -->
 
         <!-- Page Content -->
         <div class="container">
-            <!--#include virtual="ssi/search.html"-->
+            <?php include 'ssi/search.php'; ?>
             
             <div class="row">
                 <div class="col-lg-12">
@@ -682,7 +684,7 @@
 
             <hr>
 
-            <!--#include virtual="ssi/footer.html"-->
+            <?php include 'ssi/footer.php'; ?>
         </div>
         <!-- /.container -->
     </body>

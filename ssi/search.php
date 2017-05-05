@@ -8,14 +8,14 @@
     </div>
 </div> -->
 
-<div class="row">
+<div id="searchRow" class="row" style="margin-top: 10px">
     <div class="col-lg-12">
         <h2 class="page-header">Търсене</h2>
     </div>
     <div class="col-md-10 col-md-offset-1">
       <div class="form-section">
         <div class="row">
-            <form role="form" method="POST" action="search.html">
+            <form role="form" method="POST" action="search.php">
                 <div class="col-md-6">
                     <div class="form-group">
                         <label class="sr-only" for="search">Търси</label>
@@ -172,6 +172,18 @@
                     <button type="submit" class="btn btn-default btn-primary">Търси</button>
                 </div>
             </form>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p> 
+                    <a href="publish.php">Публикувай фирма</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    <a href="categoriesListing.php">Всички категории</a>
+                </p>
+            </div>
         </div>
       </div>
     </div>

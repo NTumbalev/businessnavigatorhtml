@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"><link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
@@ -28,17 +28,19 @@
     </head>
 
     <body>
-        <!--#include virtual="ssi/mainMenu.html" -->
+        <header>
+            <?php include 'ssi/mainMenu.php'; ?>
+        </header><!-- /header -->
 
         <!-- Page Content -->
         <div class="container">
-            <!--#include virtual="ssi/search.html"-->
+            <?php include 'ssi/search.php'; ?>
 
             <hr />
             
             <div class="row">
                 <div class="col-lg-12">
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img class="img-responsive" src="images/banners/large/1.jpg">
                     </a>
                 </div>
@@ -83,35 +85,35 @@
 
             <div class="row">
                 <div class="col-lg-2 mediumBanner">
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
                 </div>
@@ -121,7 +123,7 @@
                             <tr>
                                 <td><a name="А">А</a></td>
                                 <td>
-                                    <a href="categoryListing.html">Абразивни материали и изделия</a>
+                                    <a href="categoryListing.php">Абразивни материали и изделия</a>
                                 </td>
                             </tr>
                             <tr>
@@ -436,35 +438,35 @@
                     </table>
                 </div>
                 <div class="col-lg-2 mediumBanner">
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
 
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img src="images/banners/medium/1.jpg">
                     </a>
                 </div>
@@ -473,7 +475,7 @@
 
             <hr>
 
-            <!--#include virtual="ssi/footer.html"-->
+            <?php include 'ssi/footer.php'; ?>
         </div>
         <!-- /.container -->
     </body>

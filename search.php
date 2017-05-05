@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"><link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
@@ -28,11 +28,13 @@
     </head>
 
     <body>
-        <!--#include virtual="ssi/mainMenu.html" -->
+        <header>
+            <?php include 'ssi/mainMenu.php'; ?>
+        </header><!-- /header -->
 
         <!-- Page Content -->
         <div class="container">
-            <!--#include virtual="ssi/search.html"-->
+            <?php include 'ssi/search.php'; ?>
             
             <div class="row">
                 <div class="col-lg-9">
@@ -46,7 +48,7 @@
                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
-                        <a href="productView.html">Виж още ... </a>
+                        <a href="productView.php">Виж още ... </a>
                     </div>
                     
                     <hr />
@@ -60,24 +62,24 @@
                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
-                        <a href="productView.html">Виж още ... </a>
+                        <a href="productView.php">Виж още ... </a>
                     </div>
 
                     <hr />
                     <div class="result">
                         <h3>Автосервизи</h3>
-                        <a href="productView.html">Виж още ... </a>
+                        <a href="productView.php">Виж още ... </a>
                     </div>
                 </div>
                 <div class="col-lg-3 smallBanner">
-                    <a href="productView.html"><img src="images/banners/small/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/small/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/small/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/small/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/small/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/small/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/small/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/small/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/small/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/small/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/small/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/small/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/small/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/small/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/small/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/small/1.jpg"></a>
                 </div>
             </div>
             <!-- /.row -->
@@ -86,7 +88,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <a href="productView.html">
+                    <a href="productView.php">
                         <img class="img-responsive" src="images/banners/large/1.jpg">
                     </a>
                 </div>
@@ -94,7 +96,7 @@
 
             <hr/>
 
-            <!--#include virtual="ssi/footer.html"-->
+            <?php include 'ssi/footer.php'; ?>
         </div>
         <!-- /.container -->
     </body>

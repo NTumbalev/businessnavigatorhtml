@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"><link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
@@ -28,16 +28,16 @@
     </head>
 
     <body>
-        <!--#include virtual="ssi/mainMenu.html" -->
+        <?php include 'ssi/mainMenu.php'; ?>
 
         <!-- Page Content -->
         <div class="container">
-            <!--#include virtual="ssi/search.html"-->
+            <?php include 'ssi/search.php'; ?>
 
             <h1>
-                <a href="/categoryView.html" title="Автосервизи">Автосервизи</a>
+                <a href="/categoryView.php" title="Автосервизи">Автосервизи</a>
             </h1>
-            <a href="categoriesListing.html">
+            <a href="categoriesListing.php">
                 <span class="glyphicon glyphicon-arrow-left"></span> Назад към всички категории
             </a>
 
@@ -63,7 +63,7 @@
                                 <tr>
                                     <td>
                                         <span class="yellow-star glyphicon glyphicon-star"></span>
-                                        <a href="productView.html">Андонов Ауто 2014 ЕООД (Автосервизи)</a>
+                                        <a href="productView.php">Андонов Ауто 2014 ЕООД (Автосервизи)</a>
                                     </td>
                                     <td>София</td>
                                 </tr>
@@ -183,21 +183,21 @@
                 </div>
                 <!-- Banners -->
                 <div class="col-lg-2 mediumBanner">
-                    <a href="productView.html"><img src="images/banners/medium/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/medium/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/medium/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/medium/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/medium/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/medium/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/medium/1.jpg"></a>
-                    <a href="productView.html"><img src="images/banners/medium/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/medium/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/medium/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/medium/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/medium/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/medium/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/medium/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/medium/1.jpg"></a>
+                    <a href="productView.php"><img src="images/banners/medium/1.jpg"></a>
                 </div>              
             </div>
             <!-- /.row -->
 
             <hr>
 
-            <!--#include virtual="ssi/footer.html"-->
+            <?php include 'ssi/footer.php'; ?>
         </div>
         <!-- /.container -->
     </body>

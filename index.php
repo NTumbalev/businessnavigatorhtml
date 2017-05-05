@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"><link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
@@ -27,64 +27,68 @@
         <![endif]-->
     </head>
     <body>
-        <!--#include virtual="ssi/mainMenu.html"-->
-        <!--#include virtual="ssi/headerCarousel.html"-->
-
+        <header>
+            <?php include 'ssi/mainMenu.php'; ?>
+        </header><!-- /header -->
 
         <!-- Page Content -->
         <div class="container">
-            <!--#include virtual="ssi/search.html"-->
+            <div class="row">
+                <?php include 'ssi/headerCarousel.php'; ?>
+            </div>
+
+            <?php include 'ssi/search.php'; ?>
 
             <!-- Portfolio Section -->
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="page-header">Категории</h2>
                     <div class="homepageCategories">
-                        <div class="categoryAccent col-md-4 col-sm-6">
+                        <div class="categoryAccent col-md-3 col-sm-6">
                             <h3>
-                                <a href="categoryListing.html">Автосервизи</a>
+                                <a href="categoryListing.php">Автосервизи</a>
                             </h3>
-                            <a href="categoryListing.html">
+                            <a href="categoryListing.php">
                                 <img class="img-responsive img-portfolio img-hover" src="http://lorempixel.com/700/450/business/" alt="">
                             </a>
                         </div>
-                        <div class="categoryAccent col-md-4 col-sm-6">
+                        <div class="categoryAccent col-md-3 col-sm-6">
                             <h3>
-                                <a href="categoryListing.html">Дограма</a>
+                                <a href="categoryListing.php">Дограма</a>
                             </h3>
-                            <a href="categoryListing.html">
+                            <a href="categoryListing.php">
                                 <img class="img-responsive img-portfolio img-hover" src="http://lorempixel.com/700/450/abstract/" alt="">
                             </a>
                         </div>
-                        <div class="categoryAccent col-md-4 col-sm-6">
+                        <div class="categoryAccent col-md-3 col-sm-6">
                             <h3>
-                                <a href="categoryListing.html">Мебели</a>
+                                <a href="categoryListing.php">Мебели</a>
                             </h3>
-                            <a href="categoryListing.html">
+                            <a href="categoryListing.php">
                                 <img class="img-responsive img-portfolio img-hover" src="http://lorempixel.com/700/450/city/" alt="">
                             </a>
                         </div>
-                        <div class="categoryAccent col-md-4 col-sm-6">
+                        <div class="categoryAccent col-md-3 col-sm-6">
                             <h3>
-                                <a href="categoryListing.html">Категория 1</a>
+                                <a href="categoryListing.php">Категория 1</a>
                             </h3>
-                            <a href="categoryListing.html">
+                            <a href="categoryListing.php">
                                 <img class="img-responsive img-portfolio img-hover" src="http://lorempixel.com/700/450/food/" alt="">
                             </a>
                         </div>
-                        <div class="categoryAccent col-md-4 col-sm-6">
+                        <div class="categoryAccent col-md-3 col-sm-6">
                             <h3>
-                                <a href="categoryListing.html">Категория 2</a>
+                                <a href="categoryListing.php">Категория 2</a>
                             </h3>
-                            <a href="categoryListing.html">
+                            <a href="categoryListing.php">
                                 <img class="img-responsive img-portfolio img-hover" src="http://lorempixel.com/700/450/nature/" alt="">
                             </a>
                         </div>
-                        <div class="categoryAccent col-md-4 col-sm-6">
+                        <div class="categoryAccent col-md-3 col-sm-6">
                             <h3>
-                                <a href="categoryListing.html">Категория 3</a>
+                                <a href="categoryListing.php">Категория 3</a>
                             </h3>
-                            <a href="categoryListing.html">
+                            <a href="categoryListing.php">
                                 <img class="img-responsive img-portfolio img-hover" src="http://lorempixel.com/700/450/transport/" alt="">
                             </a>
                         </div>
@@ -169,14 +173,14 @@
                         <p>Може да пуснете своята фирма сами, като ние ще я публикуваме след одобрение</p>
                     </div>
                     <div class="col-md-4">
-                        <a class="btn btn-lg btn-default btn-block" href="publish.html">Публикувай</a>
+                        <a class="btn btn-lg btn-default btn-block" href="publish.php">Публикувай</a>
                     </div>
                 </div>
             </div>
 
             <hr>
 
-            <!--#include virtual="ssi/footer.html"-->
+            <?php include 'ssi/footer.php'; ?>
         </div>
         <!-- /.container -->
 
