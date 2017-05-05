@@ -185,4 +185,6 @@ ul.slick-dots li.slick-active button { background: #ccc; }
     .mediumBanner {
         display: none;
     }
+
+    .navbar-brand > img {max-width: 260px;}
 }
