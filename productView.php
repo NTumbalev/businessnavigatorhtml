@@ -64,8 +64,16 @@
                                 <td>Адрес</td>
                                 <td>
                                     <p>гр. Пловдив, бул. Цариградско шосе №92</p>
-                                    <p><a onclick="navigate(31.046051,34.85161199999993)">Заведи ме</a></p>
-                                    <p><a href="tel:0883123321">Обади се</a></p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-map-marker"></span>
+                                        <a class="clearHref navigate" onclick="navigate(31.046051,34.85161199999993)">
+                                            Заведи ме
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-phone"></span>
+                                        <a class="clearHref callMe" href="tel:0883123321">Обади се</a>
+                                    </p>
                                 </td>
                             </tr>
                             <tr>
@@ -200,9 +208,10 @@
                             protocol = 'http://';
                         }
 
-                        window.location = protocol + 'maps.apple.com/maps?daddr=' + lat + ',' + lng + '&amp;ll=';
+
+                        window.location = protocol + 'maps.apple.com/maps?saddr=Current+Location&daddr=' + lat + ',' + lng + '&amp;ll=';
                     } else {
-                        window.open('http://maps.google.com?daddr=' + lat + ',' + lng + '&amp;ll=');
+                        window.open('http://maps.google.com?saddr=Current+Location&daddr=' + lat + ',' + lng + '&amp;ll=');
                     }
                 }
             </script>
