@@ -77,6 +77,38 @@
                                 </td>
                             </tr>
                             <tr>
+                                <td>Адрес</td>
+                                <td>
+                                    <p>гр. Пловдив, бул. Цариградско шосе №92</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-map-marker"></span>
+                                        <a class="clearHref navigate" onclick="navigate(31.046051,34.85161199999993)">
+                                            Заведи ме
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-phone"></span>
+                                        <a class="clearHref callMe" href="tel:0883123321">Обади се</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Адрес</td>
+                                <td>
+                                    <p>гр. Пловдив, бул. Цариградско шосе №92</p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-map-marker"></span>
+                                        <a class="clearHref navigate" onclick="navigate(31.046051,34.85161199999993)">
+                                            Заведи ме
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <span class="glyphicon glyphicon-phone"></span>
+                                        <a class="clearHref callMe" href="tel:0883123321">Обади се</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
                                 <td>Телефони</td>
                                 <td>
                                     032 - 80 89 86 (0884 75 03 06)
@@ -90,7 +122,7 @@
                             </tr>
                             <tr>
                                 <td>Уеб сайт</td>
-                                <td><a href="http://infomediabg.com">http://infomediabg.com</a></td>
+                                <td><a target="_blank" href="http://infomediabg.com">http://infomediabg.com</a></td>
                             </tr>
                             <tr>
                                 <td>Лице за контакти</td>

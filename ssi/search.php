@@ -174,15 +174,10 @@
             </form>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <p> 
-                    <a href="publish.php">Публикувай фирма</a>
-                </p>
-            </div>
-            <div class="col-md-6">
-                <p>
-                    <a href="categoriesListing.php">Всички категории</a>
-                </p>
+            <div class="col-md-12 text-center">
+                <a href="publish.php">
+                    <button class="btn btn-info">Публикувай фирма</button>
+                </a>
             </div>
         </div>
       </div>

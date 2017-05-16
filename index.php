@@ -42,13 +42,18 @@
             <!-- Portfolio Section -->
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="page-header">Категории</h2>
+                    <div>
+                        <p class="allCategories">
+                            <a href="categoriesListing.php">Всички категории</a>
+                        </p>
+                        <h2 class="page-header">Категории</h2>
+                    </div>
                     <div class="homepageCategories">
                         <div class="categoryAccent col-md-3 col-sm-6">
                             <h3>
                                 <a href="categoryListing.php">Автосервизи</a>
                             </h3>
-                            <a href="categoryListing.php">
+                            <a class="categoryImage" href="categoryListing.php">
                                 <img class="img-responsive img-portfolio img-hover" src="http://lorempixel.com/700/450/business/" alt="">
                             </a>
                         </div>
@@ -141,7 +146,7 @@
             <!-- /.row -->
 
             <!-- Features Section -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-12">
                     <h2 class="page-header">Някакъв описателен текст</h2>
                 </div>
@@ -161,7 +166,7 @@
                 <div class="col-md-6">
                     <img class="img-responsive" src="http://lorempixel.com/700/450/fashion/" alt="">
                 </div>
-            </div>
+            </div> -->
             <!-- /.row -->
 
             <hr>
@@ -186,9 +191,9 @@
 
         <!-- Script to Activate the Carousel -->
         <script>
-        $('.carousel').carousel({
-            interval: 5000 //changes the speed
-        })
+            $('.carousel').carousel({
+                interval: 5000 //changes the speed
+            });
         </script>
     </body>
 </html>
