@@ -16,7 +16,7 @@
       <div class="form-section">
         <div class="row">
             <form role="form" method="POST" action="search.php">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="form-group">
                         <label class="sr-only" for="search">Търси</label>
                         <input type="text" class="form-control" id="search" placeholder="Търси продукт или услуга">
@@ -168,18 +168,22 @@
                         </select>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1" style="text-align: right">
                     <button type="submit" class="btn btn-default btn-primary">Търси</button>
                 </div>
             </form>
         </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <a href="publish.php">
-                    <button class="btn btn-info">Публикувай фирма</button>
-                </a>
+		<!-- Call to Action Section -->
+            <div class="well">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>Може да пуснете своята фирма сами, като ние ще я публикуваме след одобрение</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="btn btn-lg btn-default btn-block" href="publish.php">Публикувай</a>
+                    </div>
+                </div>
             </div>
-        </div>
       </div>
     </div>
 </div>

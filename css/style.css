@@ -26,7 +26,7 @@ body {
 /* Home Page Carousel */
 
 header.carousel {
-    margin-top: 50px;
+    margin-top: 30px;
     height: 200px;
 }
 
@@ -139,7 +139,7 @@ nav .navCustom {
 .inputGroupContainer,.selectContainer{padding-bottom: 15px}
 
 .customHeaderNav {
-    height: 100px;
+    height: 80px;
     background-color: #FFF;
     margin-bottom: 10px;
 }
@@ -192,6 +192,15 @@ a.clearHref {
     right: 0;
     top: 14px;
     float: right;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 5px;
+}
+
+.well {
+	margin-top: 25px;
 }
 
 /* Responsive Styles */

@@ -8,7 +8,7 @@
 <footer>
     <div class="row">
         <div class="col-lg-12">
-            <p>Copyright &copy; Информатор БГ 2017</p>
+            <p>Copyright &copy; Бизнес навигатор 2017</p>
         </div>
     </div>
 </footer>
