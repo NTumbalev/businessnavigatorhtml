@@ -468,6 +468,8 @@
                         <img src="images/banners/medium/1.jpg">
                     </a>
                 </div>
+
+                <?php include 'ssi/publish.php'; ?>
             </div>
             <!-- /.row -->
 

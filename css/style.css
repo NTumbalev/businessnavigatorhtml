@@ -105,6 +105,7 @@ nav.paginator {
     right: 10px;
     cursor: pointer;
     display: none;
+    z-index: 1;
 }
 
 .breadcrumbs {
@@ -214,6 +215,94 @@ a.clearHref {
     .mobileHidden { display: none; }
     .desktopHidden { display: block; }
     .categoryAccent a > img { display: none; }
+
+    .menuWrapper {
+        position: fixed;
+        bottom: -60px;
+        left: 0;
+        right: 0;
+        
+    }
+
+    .menuWrapperOpen {
+        bottom: 0 !important;
+    }
+
+    .mobileActionsMenuknob {
+        pointer-events: auto;
+        width: 150px;
+        height: 40px;
+        margin: 0 auto;
+        background-image: url("../images/quickAction_darkSprite.png");
+        background-position: 50% -430px;
+        background-size: 430px;
+    }
+
+    .mobileActionsMenumenuContainer {
+        display: table;
+        width: 100%;
+        background-color: #3e3e3e;
+        background-repeat: no-repeat;
+        background-image: url("../images/quickAction_darkSprite.png");
+        height: 53px;
+        box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.5);
+        pointer-events: auto;
+    }
+
+    .mobileActionsMenumenuContainer ul {
+        display: table-row;
+        list-style: none;
+    }
+
+    .mobileActionsMenumenuContainer ul li {
+        display: table-cell;
+        text-align: center;
+        height: 53px;
+        border: 1px solid #575757;
+        border-left-color: #363636;
+    }
+
+    .mobileActionsMenumenuContainer ul li.mobileActionsMenu_navigation a {
+        background-position: -13px -4px;
+    }
+
+    .mobileActionsMenumenuContainer ul li.mobileActionsMenu_phone a {
+        background-position: -78px -4px;
+    }
+
+    .mobileActionsMenumenuContainer ul li.mobileActionsMenu_email a {
+        background-position: -141px -4px;
+    }
+
+    .mobileActionsMenumenuContainer ul li.mobileActionsMenu_address a {
+        background-position: -208px -4px;
+    }
+
+    .mobileActionsMenumenuContainer ul li button {
+        background-image: url("../images/quickAction_darkSprite.png");
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 100%;
+        display: inline-block;
+        overflow: hidden;
+        direction: ltr;
+        white-space: nowrap;
+        text-indent: -9999em;
+        background-size: 420px;
+    }
+
+    .mobileActionsMenumenuContainer ul li a {
+        background-image: url("../images/quickAction_darkSprite.png");
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 100%;
+        display: inline-block;
+        overflow: hidden;
+        direction: ltr;
+        white-space: nowrap;
+        text-indent: -9999em;
+        background-size: 420px;
+    }
 }
 
 @media(max-width:767px) {

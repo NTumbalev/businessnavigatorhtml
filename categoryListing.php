@@ -191,7 +191,9 @@
                     <a href="productView.php"><img src="images/banners/medium/1.jpg"></a>
                     <a href="productView.php"><img src="images/banners/medium/1.jpg"></a>
                     <a href="productView.php"><img src="images/banners/medium/1.jpg"></a>
-                </div>              
+                </div>
+
+                <?php include 'ssi/publish.php'; ?>           
             </div>
             <!-- /.row -->
 

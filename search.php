@@ -92,6 +92,8 @@
                         <img class="img-responsive" src="images/banners/large/1.jpg">
                     </a>
                 </div>
+
+                <?php include 'ssi/publish.php'; ?>
             </div>
 
             <hr/>

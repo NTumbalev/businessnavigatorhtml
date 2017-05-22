@@ -165,6 +165,8 @@
                     </form>
                     </div><!-- /.form -->
                 </div>
+
+                <?php include 'ssi/publish.php'; ?>
             </div>
             <!-- /.row -->
 

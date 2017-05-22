@@ -109,35 +109,47 @@
                         Някакви по-малки банери или акценти
                     </h1>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4><i class="fa fa-fw fa-check"></i> Акцент 1</h4>
                         </div>
                         <div class="panel-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <p class="text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?
+                                    </p>
+                                </div>
+                                
+                                <div class="col-md-5">
+                                    <img src="http://lorempixel.com/200/215/nature/" alt="">
+                                </div>
+                            </div>
+
                             <a href="#" class="btn btn-default">Научи повече</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-gift"></i> Акцент 2</h4>
+                            <h4><i class="fa fa-fw fa-check"></i> Акцент 2</h4>
                         </div>
                         <div class="panel-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                            <a href="#" class="btn btn-default">Научи повече</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-compass"></i> Акцент 3</h4>
-                        </div>
-                        <div class="panel-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <p class="text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?
+                                    </p>
+                                </div>
+                                
+                                <div class="col-md-5">
+                                    <img src="http://lorempixel.com/200/215/nature/" alt="">
+                                </div>
+                            </div>
+
                             <a href="#" class="btn btn-default">Научи повече</a>
                         </div>
                     </div>

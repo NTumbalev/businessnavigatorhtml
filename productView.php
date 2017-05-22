@@ -165,12 +165,38 @@
                 <a href="categoryListing.php">
                     <span class="glyphicon glyphicon-arrow-left"></span> Назад към категория Автосервизи
                 </a>
+
+                <?php include 'ssi/publish.php'; ?>
             </div>
             <!-- /.row -->
 
             <hr>
 
+
             <?php include 'ssi/footer.php'; ?>
+
+            <div class="menuWrapper">
+                <div class="mobileActionsMenuknob"></div>
+                <div id="MOBILE_ACTIONS_MENUmenuContainer" class="mobileActionsMenumenuContainer">
+                    <ul>
+                        <li class="mobileActionsMenu_navigation">
+                            <a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"></a>
+                            <!-- <button data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"></button> -->
+                        </li>
+                        <li class="mobileActionsMenu_phone">
+                            <a href="tel:0883123321"></a>
+                        </li>
+                        <li class="mobileActionsMenu_email">
+                            <a href="mailto:andonovauto@abv.bg"></a>
+                        </li>
+                        <li class="mobileActionsMenu_address">
+                            <a onclick="navigate(31.046051,34.85161199999993)"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
             <script src="js/slick.min.js" type="text/javascript"></script>
             <script type="text/javascript">
                 jQuery(function($){
@@ -219,6 +245,18 @@
                     });
 
                     $('#searchRow').addClass('mobileHidden');
+
+                    $('.menuWrapper').on('click', function() {
+                        var $this = $(this);
+                        var $toTop = $('#toTop');
+                        if ($this.hasClass('menuWrapperOpen')) {
+                            $this.removeClass('menuWrapperOpen');
+                            $toTop.css('bottom', '10px');
+                        } else {
+                            $this.addClass('menuWrapperOpen');
+                            $toTop.css('bottom', '75px');
+                        }
+                    });
                 });
 
                 function navigate(lat, lng) {
