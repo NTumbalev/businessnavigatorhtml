@@ -175,14 +175,10 @@
 
             <?php include 'ssi/footer.php'; ?>
 
-            <div class="menuWrapper">
-                <div class="mobileActionsMenuknob"></div>
+            <div class="menuWrapper menuWrapperOpen">
+                <!-- <div class="mobileActionsMenuknob"></div> -->
                 <div id="MOBILE_ACTIONS_MENUmenuContainer" class="mobileActionsMenumenuContainer">
                     <ul>
-                        <li class="mobileActionsMenu_navigation">
-                            <a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"></a>
-                            <!-- <button data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"></button> -->
-                        </li>
                         <li class="mobileActionsMenu_phone">
                             <a href="tel:0883123321"></a>
                         </li>
@@ -200,6 +196,7 @@
             <script src="js/slick.min.js" type="text/javascript"></script>
             <script type="text/javascript">
                 jQuery(function($){
+                    $('#toTop').css('bottom', '75px');
 
                     $('.gallery-main-images').slick({
                         slidesToShow: 1,
@@ -245,18 +242,6 @@
                     });
 
                     $('#searchRow').addClass('mobileHidden');
-
-                    $('.menuWrapper').on('click', function() {
-                        var $this = $(this);
-                        var $toTop = $('#toTop');
-                        if ($this.hasClass('menuWrapperOpen')) {
-                            $this.removeClass('menuWrapperOpen');
-                            $toTop.css('bottom', '10px');
-                        } else {
-                            $this.addClass('menuWrapperOpen');
-                            $toTop.css('bottom', '75px');
-                        }
-                    });
                 });
 
                 function navigate(lat, lng) {
